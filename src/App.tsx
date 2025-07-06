@@ -95,7 +95,7 @@ const App: React.FC = () => {
         "Testing": "Manual Testing"
       },
       "tech": ["HTML", "CSS", "JavaScript", "Node.js", "Express", "EJS", "MongoDB"],
-      "image": `${url}/projectImg/criccrazy.png`,
+      "image": `/${url}/projectImg/criccrazy.png`,
       "github": "https://github.com/prateek-dhanker/CricCrazy",
       "demo": "https://criccrazy.onrender.com/" 
     },
@@ -117,7 +117,7 @@ const App: React.FC = () => {
         "Testing": "Manual Testing"
       },
       "tech": ["Flask", "TensorFlow", "OpenCV", "Pandas", "NumPy", "Matplotlib"],
-      "image": `${url}/projectImg/medical_ai.jpg`,
+      "image": `/${url}/projectImg/medical_ai.jpg`,
       "github": "https://github.com/prateek-dhanker/disease-detection-medical-images",
       "demo": "https://github.com/prateek-dhanker/disease-detection-medical-images"
     },
@@ -139,7 +139,7 @@ const App: React.FC = () => {
         "Testing": "Confusion Matrix & Accuracy Metrics"
       },
       "tech": ["TensorFlow", "TensorFlow Lite", "OpenCV", "Python", "NumPy"],
-      "image": `${url}/projectImg/digit.webp`,
+      "image": `/${url}/projectImg/digit.webp`,
       "github": "https://github.com/prateek-dhanker/tinyml-digit-recognizer",
       "demo": "https://github.com/prateek-dhanker/tinyml-digit-recognizer"
     },
@@ -161,7 +161,7 @@ const App: React.FC = () => {
         "Testing": "Manual Testing"
       },
       "tech": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "XML"],
-      "image": `${url}/projectImg/quizaura.png`,
+      "image": `/${url}/projectImg/quizaura.png`,
       "github": "https://github.com/prateek-dhanker/quizaura",
       "demo": "https://github.com/prateek-dhanker/quizaura"
     },
@@ -183,7 +183,7 @@ const App: React.FC = () => {
         "Testing": "Postman + Unit Testing"
       },
       "tech": ["React", "Node.js", "Express", "MongoDB", "Docker", "JWT", "REST API"],
-      "image": `${url}/projectImg/task.png`,
+      "image": `/${url}/projectImg/task.png`,
       "github": "https://github.com/prateek-dhanker/Task-Manager",
       "demo": "https://task-manager-1-185z.onrender.com/"
     },
@@ -205,7 +205,7 @@ const App: React.FC = () => {
         "Testing": "Manual Gameplay Testing"
       },
       "tech": ["Python", "Pygame"],
-      "image": `${url}/projectImg/viper.png`,
+      "image": `/${url}/projectImg/viper.png`,
       "github": "https://github.com/prateek-dhanker/Viper-Rush",
       "demo": "https://drive.google.com/file/d/1G4FERwFPy_4kb_373bUfpx1RaQVMR7Wh/view?usp=sharing"
     }
@@ -233,7 +233,7 @@ const App: React.FC = () => {
         "Created an entity relationship diagram to model a database for Walmart’s pet department requirements.",
         "Integrated CSV-based data into the database using Python, improving accessibility and usability."
       ],
-      "logos": [`${url}/forage.png`, "https://upload.wikimedia.org/wikipedia/commons/c/ca/Walmart_logo.svg"],
+      "logos": [`/${url}/forage.png`, "https://upload.wikimedia.org/wikipedia/commons/c/ca/Walmart_logo.svg"],
       "certificateUrl": "https://drive.google.com/file/d/11tqYxifawpUoYBaZT5t_GpTuwcLLnl2e/view?usp=sharing"
     },
     {
@@ -245,7 +245,7 @@ const App: React.FC = () => {
         "Identified that the company was using an outdated password hashing algorithm by cracking passwords using Hashcat.",
         "Wrote a memo summarizing proposed uplifts to increase the company’s password protection, including stronger algorithms and longer minimum length."
       ],
-      "logos": [`${url}/forage.png`, "https://upload.wikimedia.org/wikipedia/commons/6/61/Goldman_Sachs.svg"],
+      "logos": [`/${url}/forage.png`, "https://upload.wikimedia.org/wikipedia/commons/6/61/Goldman_Sachs.svg"],
       "certificateUrl": "https://drive.google.com/file/d/1Zf5SyBuhaAnxA3Psc-tudU8mpErn6_i5/view?usp=sharing"
     },
     {
@@ -594,7 +594,7 @@ const App: React.FC = () => {
                 <div className="absolute inset-2 rounded-full bg-[#1A1A1A] border-2 border-[#00FFB2]/30"></div>
                 <div className="absolute inset-4 rounded-full overflow-hidden">
                   <img 
-                    src={`${url}/prateekPic.jpeg`}
+                    src={`/${url}/prateekPic.jpeg`}
                     alt="Prateek Dhanker" 
                     className="w-full h-full object-cover object-top zoom-510 transition-transform duration-500 hover:scale-105 rounded-full shadow-lg"
                   />
@@ -951,6 +951,8 @@ const App: React.FC = () => {
                   />
                 </div>
                 
+                <input type="hidden" name="_captcha" value="false" />
+
                 <div>
                   <label htmlFor="email" className="block text-[#e0e0e0] mb-2">Email</label>
                   <input 
