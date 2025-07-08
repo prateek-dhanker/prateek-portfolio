@@ -562,7 +562,7 @@ const App: React.FC = () => {
               <h2 className="text-xl md:text-2xl font-light text-[#00FFB2] mb-4">Hello, I'm</h2>
               <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white">Prateek Dhanker</h1>
               <h3 className="text-xl md:text-2xl font-medium text-[#e0e0e0] mb-6">
-                Final-Year Software Engineer | Web & AI Developer
+                Final-Year CS Student | Full-Stack & AI Developer
               </h3>
               <p className="text-lg md:text-xl text-[#cccccc] mb-8 max-w-lg">
                 Turning complex problems into elegant software solutions.
@@ -628,7 +628,7 @@ const App: React.FC = () => {
                 Throughout my academic journey, I've developed a keen interest in solving complex problems through elegant code. I believe in writing clean, maintainable software that not only works well but is also a joy to work with.
               </p>
               <p className="text-[#e0e0e0] text-lg leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through technical blog posts. I'm always eager to learn and grow as a developer.
+                I'm driven by a passion for building scalable solutions and exploring new technologies. From web apps to AI models, I enjoy turning ideas into reliable, user-focused experiences that blend clean code with meaningful impact.
               </p>
             </div>
             
