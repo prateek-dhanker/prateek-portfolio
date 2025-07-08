@@ -570,7 +570,7 @@ const App: React.FC = () => {
               
               <div className="flex flex-wrap justify-center md:justify-start gap-4">
                 <a
-                  href="https://drive.google.com/file/d/1EMcvGjmqjrmQdupHcJkOxd9I2PDgj6Lw/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1TTVNCnyUOyxg7pXCdr0YddmL2ZFi2zze/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
