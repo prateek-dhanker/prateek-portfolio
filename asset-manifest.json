@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/prateek-portfolio/static/css/main.808657e2.css",
-    "main.js": "/prateek-portfolio/static/js/main.144ab7e5.js",
+    "main.js": "/prateek-portfolio/static/js/main.5ba78fa9.js",
     "static/js/453.438d9e50.chunk.js": "/prateek-portfolio/static/js/453.438d9e50.chunk.js",
     "index.html": "/prateek-portfolio/index.html",
     "main.808657e2.css.map": "/prateek-portfolio/static/css/main.808657e2.css.map",
-    "main.144ab7e5.js.map": "/prateek-portfolio/static/js/main.144ab7e5.js.map",
+    "main.5ba78fa9.js.map": "/prateek-portfolio/static/js/main.5ba78fa9.js.map",
     "453.438d9e50.chunk.js.map": "/prateek-portfolio/static/js/453.438d9e50.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.808657e2.css",
-    "static/js/main.144ab7e5.js"
+    "static/js/main.5ba78fa9.js"
   ]
 }
