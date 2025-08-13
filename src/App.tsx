@@ -39,7 +39,6 @@ const App: React.FC = () => {
       description: "Secured a competitive AIR in JEE Mains",
     }
   ];
-
   const skills = [
     {
       category: "Programming Languages",
@@ -212,7 +211,7 @@ const App: React.FC = () => {
   ];
   const experience = [
     {
-      "date": "May 2025 – Present",
+      "date": "May 2025 – July 2025",
       "title": "Full-Stack Development Intern",
       "company": "PanScience Innovation, New Delhi",
       "description": [
@@ -221,7 +220,7 @@ const App: React.FC = () => {
         "Collaborated cross-functionally with tech leads and clients to shape scalable system features and improve product architecture."
       ],
       "logos": ["https://cdn.prod.website-files.com/66f415d94f3cbc570edcdd65/6712049bd5eb1895e4aa0da8_Frame%20249.svg"],
-      "certificateUrl": ""
+      "certificateUrl": "https://drive.google.com/file/d/1-jrtpdMnL1vKM1rSPeqh9lxy4hh3sN_j/view?usp=drive_link"
     },
     {
       "date": "December 2024",
