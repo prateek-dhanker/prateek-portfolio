@@ -232,7 +232,7 @@ const App: React.FC = () => {
         "Created an entity relationship diagram to model a database for Walmart’s pet department requirements.",
         "Integrated CSV-based data into the database using Python, improving accessibility and usability."
       ],
-      "logos": [`/${url}/forage.png`, "https://upload.wikimedia.org/wikipedia/commons/c/ca/Walmart_logo.svg"],
+      "logos": [`/${url}/forage.png`, `/${url}/walmart.png`],
       "certificateUrl": "https://drive.google.com/file/d/11tqYxifawpUoYBaZT5t_GpTuwcLLnl2e/view?usp=sharing"
     },
     {
