@@ -45,15 +45,19 @@ const App: React.FC = () => {
       items: ["C", "C++", "Python", "JavaScript", "TypeScript", "PHP", "Java"]
     },
     {
-      category: "Web Technologies",
+      category: "Web Development",
       items: [
         "HTML", "CSS", "Tailwind CSS", "React.js", "Node.js", "Express",
         "EJS", "XML", "Flask", "FastAPI"
       ]
     },
     {
+      category: "Mobile Development",
+      items: ["Android Development (Java)", "XML Layouts", "Room Database"]
+    },
+    {
       category: "Database",
-      items: ["MySQL", "PostgreSQL", "MongoDB", "Qdrant (Vector DB)"]
+      items: ["MySQL", "PostgreSQL", "MongoDB", "Qdrant (Vector DB)", "Room (SQLite)"]
     },
     {
       category: "Cloud and DevOps",
@@ -498,7 +502,7 @@ const App: React.FC = () => {
           {
             name: "Proficiency",
             type: "bar",
-            data: [55, 67, 86, 76, 88, 98, 90],
+            data: [75, 67, 86, 76, 88, 98, 90],
             itemStyle: {
               color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
                 { offset: 0, color: "#00FFB2" },
