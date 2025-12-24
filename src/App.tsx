@@ -99,6 +99,51 @@ const App: React.FC = () => {
       "demo": "https://criccrazy.onrender.com/" 
     },
     {
+      "title": "VigilNet: AI-Driven Crowd Monitoring",
+      "description": "A surveillance platform for real-time crowd density estimation and safety monitoring using deep learning.",
+      "extendedDescription": "The system analyzes live and recorded video streams to estimate crowd density, trigger alerts on threshold breaches, and visualize trends through an analytics dashboard. It leverages a Multi-Column CNN to overcome scale variation and occlusion challenges present in dense crowds.",
+      "features": [
+        "Real-time video-based crowd density estimation",
+        "Threshold-based alert system with CSV logging",
+        "Low-light enhancement and camera hindrance detection",
+        "Interactive analytics dashboard with graphs and filters"
+      ],
+      "technicalDetails": {
+        "Frontend": "React.js, Recharts",
+        "Backend": "Python, FastAPI",
+        "AI/ML": "Multi-Column CNN, TensorFlow, PyTorch",
+        "Data": "ShanghaiTech Crowd Counting Dataset",
+        "Visualization": "Time-series, histogram, pie charts"
+      },
+      "tech": ["Python", "Deep Learning", "Computer Vision", "TensorFlow", "PyTorch", "React.js", "FastAPI"],
+      "image": `/${url}/projectImg/vigilNet.png`,
+      "github": "https://github.com/prateek-dhanker/VigilNet",
+      "demo": "https://github.com/prateek-dhanker/VigilNet"
+    },
+    {
+      "title": "PinPlace: Location Saver Android App",
+      "description": "Android app allowing users to save and manage important locations with persistent storage and map integration.",
+      "extendedDescription": "PinPlace is a Java-based Android app designed to help users save their current locations along with custom names and descriptions. The app uses Room Database for persistent storage, integrates Google Location Services for accurate location fetching, and allows users to open saved locations directly in Google Maps. The project follows proper Android permission handling, app signing, versioning, and GitHub release practices, making it production-ready and portfolio-grade.",
+      "features": [
+        "Save and manage user locations with name, description, latitude, and longitude",
+        "Persistent local storage using Room Database",
+        "Real-time location fetching with runtime permission handling",
+        "View saved locations on Google Maps with one-click navigation",
+        "Edit, delete and share saved locations from a dedicated detail screen",
+        "Versioned and signed APK releases published via GitHub Releases"
+      ],
+      "technicalDetails": {
+        "Frontend": "Android UI using XML layouts",
+        "Backend": "Java + Room Database (SQLite abstraction)",
+        "DevOps": "Secure keystore management, signed APK generation, and GitHub Releases",
+        "Testing": "Manual functional testing on emulator and physical Android devices"
+      },
+      "tech": ["Java", "Android SDK", "Room Database", "SQLite", "Google Maps Intents", "XML"],
+      "image": `/${url}/projectImg/pinplace.png`,
+      "github": "https://github.com/prateek-dhanker/PinPlace",
+      "demo": "https://github.com/prateek-dhanker/PinPlace/releases/tag/v1.1"
+    },
+    {
       "title": "Disease Detection Using Medical Images",
       "description": "A Flask-based system that predicts diseases from medical images with confidence scores and visualizations.",
       "extendedDescription": "Built a deep learning web application to detect diseases from X-rays, MRIs, ultrasounds, and retinal images. Users upload images and receive model predictions with accuracy metrics and Grad-CAM visualizations.",
