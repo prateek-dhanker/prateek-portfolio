@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills'
 import Experience from './components/Experience';
 import Contact from './components/Contact';
+import Achievements from './components/Achievements';
 
 const App: React.FC = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -60,7 +61,7 @@ const App: React.FC = () => {
           
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
-            {['home', 'about', 'projects', 'skills', 'experience', 'contact'].map((item) => (
+            {['home', 'about', 'projects', 'skills', 'experience', 'achievement', 'contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
@@ -94,7 +95,7 @@ const App: React.FC = () => {
           isMenuOpen ? 'max-h-96 border-b border-[#2a2a2a]' : 'max-h-0'
         }`}>
           <div className="container mx-auto px-6 py-4">
-            {['home', 'about', 'projects', 'skills', 'experience', 'contact'].map((item) => (
+            {['home', 'about', 'projects', 'skills', 'experience', 'achievement', 'contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
@@ -138,8 +139,13 @@ const App: React.FC = () => {
         <Experience url={url} />
       </section>
 
+      {/* Achievement Section */}
+      <section id="achievement" className="py-20 bg-[#1A1A1A]">
+        <Achievements url={url}/>
+      </section>
+
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-[#1A1A1A]">
+      <section id="contact" className="py-20 bg-[#121212]">
         <Contact />
       </section>
 

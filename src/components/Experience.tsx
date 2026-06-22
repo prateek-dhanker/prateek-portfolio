@@ -8,7 +8,7 @@ interface ExperienceProps{
 const Experience: React.FC<ExperienceProps> = ({url}) => {
     const experience = [
         {
-            "date": "May 2025 – July 2025",
+            "date": "May 2025 - July 2025",
             "title": "Full-Stack Development Intern",
             "company": "PanScience Innovation, New Delhi",
             "description": [
@@ -20,62 +20,25 @@ const Experience: React.FC<ExperienceProps> = ({url}) => {
             "certificateUrl": "https://drive.google.com/file/d/1-jrtpdMnL1vKM1rSPeqh9lxy4hh3sN_j/view?usp=drive_link"
         },
         {
-            "date": "December 2024",
-            "title": "Advanced Software Engineering Virtual Experience Program",
-            "company": "Walmart USA (Forage)",
+            "date": "January 2026 - July 2026",
+            "title": "Software Engineer Intern",
+            "company": "PhonePe, Bengaluru",
             "description": [
-                "Completed the Advanced Software Engineering Job Simulation solving technical projects across Walmart teams.",
-                "Developed a novel heap data structure for Walmart’s shipping department, showcasing algorithmic skills.",
-                "Created an entity relationship diagram to model a database for Walmart’s pet department requirements.",
-                "Integrated CSV-based data into the database using Python, improving accessibility and usability."
+                "Designed and built a file processing microservice (Java, Dropwizard) handling 100+ files/day (50K+ records each) across PhonePe Lending workflows",
+                "Developed a generic callback-based sink framework with no-code onboarding via Jolt transformations, improving scalability by decoupling ingestion and processing from downstream services; implemented row-level alerting and SFTP source integration",
+                "Contributed to system design and infrastructure planning by preparing reviewed documentation for database capacity estimation including Azure VM sizing, memory, IOPS, and disk requirements using Percona and Aerospike"
             ],
-            "logos": [`/${url}/forage.png`, `/${url}/walmart.png`],
-            "certificateUrl": "https://drive.google.com/file/d/11tqYxifawpUoYBaZT5t_GpTuwcLLnl2e/view?usp=sharing"
-        },
-        {
-            "date": "September 2024",
-            "title": "Software Engineering Virtual Experience Program",
-            "company": "Goldman Sachs (Forage)",
-            "description": [
-                "Completed a job simulation as a Goldman Sachs governance analyst responsible for assessing IT security and suggesting improvements.",
-                "Identified that the company was using an outdated password hashing algorithm by cracking passwords using Hashcat.",
-                "Wrote a memo summarizing proposed uplifts to increase the company’s password protection, including stronger algorithms and longer minimum length."
-            ],
-            "logos": [`/${url}/forage.png`, "https://upload.wikimedia.org/wikipedia/commons/6/61/Goldman_Sachs.svg"],
-            "certificateUrl": "https://drive.google.com/file/d/1Zf5SyBuhaAnxA3Psc-tudU8mpErn6_i5/view?usp=sharing"
-        },
-        {
-            "date": "June 2024",
-            "title": "Certified in Data Structures and Algorithms (C++)",
-            "company": "Coding Ninjas",
-            "description": [
-                "Completed an intensive certification program focused on C++ Data Structures and Algorithms.",
-                "Covered topics such as dynamic programming, trees, graphs, and advanced problem solving.",
-                "Gained hands-on experience through assignments, quizzes, and coding challenges."
-            ],
-            "logos": ["https://files.codingninjas.in/new-cn-logos-1-1711622387.svg"],
-            "certificateUrl": "https://drive.google.com/file/d/1O3CA0AqC0fN6KqNAMZkBKISh0Zv6A94r/view?usp=sharing"
-        },
-        {
-            "date": "May 2024",
-            "title": "Knight Badge – Top Rated Contest Performer",
-            "company": "LeetCode",
-            "description": [
-                "Earned the Knight badge for consistently ranking among the top in LeetCode weekly contests.",
-                "Demonstrated strong problem-solving and algorithmic thinking under time pressure.",
-                "Ranked in the top percentile among global competitive programmers on the platform."
-            ],
-            "logos": ["https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"],
-            "certificateUrl": "https://drive.google.com/file/d/1W1my4u_4U2Oby7DJt265NuobPnWs_MqH/view?usp=sharing"
+            "logos": ["https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/54/f7/7054f766-bcf9-88a9-a622-6ef7f49798d2/Placeholder.mill/400x400bb-75.webp"],
+            "certificateUrl": ""
         }
     ];
     return (
         <div className="container mx-auto px-6">
             <div className="text-center mb-16">
-                <h2 className="text-3xl md:text-4xl font-bold mb-2">Experience & Achievements</h2>
+                <h2 className="text-3xl md:text-4xl font-bold mb-2">Experience</h2>
                 <div className="w-20 h-1 bg-[#00FFB2] mx-auto"></div>
                 <p className="text-[#e0e0e0] mt-4 max-w-2xl mx-auto">
-                    My professional journey and key milestones.
+                    My professional journey.
                 </p>
             </div>
 
