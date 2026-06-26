@@ -48,7 +48,7 @@ const Projects: React.FC<ProjectsProps> = ({url}) => {
             },
             "tech": ["Python", "Deep Learning", "Computer Vision", "TensorFlow", "PyTorch", "React.js", "FastAPI"],
             "image": `/${url}/projectImg/vigilNet.png`,
-            "github": "https://github.com/prateek-dhanker/VigilNet",
+            "github": "https://github.com/prateek-dhanker/VigilNet-Crowd-Counting",
             "demo": "https://github.com/prateek-dhanker/VigilNet"
         },
         {
